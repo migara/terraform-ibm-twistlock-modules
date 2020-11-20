@@ -1,0 +1,11 @@
+variable kubernetes_host {}
+variable chart_name {}
+variable k8s_client_certificate {}
+variable k8s_client_key {}
+variable k8s_cluster_ca_certificate {}
+variable load_config_file {}
+variable namespace {}
+variable console_hostname {}
+variable console_username {}
+variable console_password {}
+variable helm_release_name {}
