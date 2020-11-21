@@ -11,6 +11,7 @@ module twistlock_console {
   twistclok_license_key   = var.twistclok_license_key
 }
 
+# Defender deployment
 module "defender" {
   source = "./modules/defender"
 
