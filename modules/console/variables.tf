@@ -24,23 +24,25 @@ variable image_pull_secrets {
   default     = []
 }
 
-variable "console_username" {
-  type        = string
-  description = "Twistlock console username"
-}
-
-variable "console_password" {
-  type        = string
-  description = "Twistlock console password"
-}
-
-variable twistclok_license_key {
-  type        = string
-  description = "Twistlock license key"
-}
-
-variable "enable_bootstrap" {
+variable enable_bootstrap {
   type        = bool
   description = "(optional) setup initial user, license console and add console IP to SAN list"
   default     = false
 }
+
+variable console_username {
+  type        = string
+  description = "(optional) Required if enable_bootstrap is set to true and if initial user needs to be set"
+}
+
+variable console_password {
+  type        = string
+  description = "(optional) Required if enable_bootstrap is set to true and if initial user needs to be set"
+}
+
+variable twistclok_license_key {
+  type        = string
+  description = "(optional) Required if enable_bootstrap is set to true and if license needs to be set"
+}
+
+
