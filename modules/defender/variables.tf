@@ -21,7 +21,7 @@ variable k8s_cluster_ca_certificate {
 variable load_config_file {
   type        = bool
   description = "By default the local config (~/.kube/config) is loaded when you use this provider. This option at false disable this behaviour. Can be sourced from KUBE_LOAD_CONFIG_FILE."
-  defaault    = false
+  default     = false
 }
 
 variable namespace {
