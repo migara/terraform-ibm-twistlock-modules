@@ -5,6 +5,7 @@ A set of Terraform modules to automate the deployment of Prisma Cloud Compute (T
 
 -	[Terraform](https://www.terraform.io/downloads.html) 0.12.29+
 - [IBM Cloud provider plugin](https://github.com/IBM-Cloud/terraform-provider-ibm#using-the-provider)
+- [jq](https://stedolan.github.io/jq/download/)
 
 ## Using the modules
 
