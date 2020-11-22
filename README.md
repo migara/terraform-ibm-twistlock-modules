@@ -9,7 +9,7 @@ A set of Terraform modules to automate the deployment of Prisma Cloud Compute (T
 
 ## Using the modules
 
-This repoository contains two modules 
+This repository contains two modules 
 
 ### Prisma Cloud Compute [Console](modules/console)
 
